@@ -1,0 +1,11 @@
+.techcontainter{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50em;
+}
+
+.techstackimg {
+    height: 10rem;
+    width: 10rem;
+}
