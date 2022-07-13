@@ -3,6 +3,52 @@
     height: 50em;
 }
 
+.projectscont{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-left: 17rem;
+    gap: 2rem;
+}
+
 .projectstitle{
+    margin-left: 17rem;
     color: azure;
+    margin-left: 10rem;
+}
+
+.projects{
+    border: whitesmoke solid 1px;
+    /* margin-left: 17rem; */
+    border-radius: 15px;
+    height: 40em;
+    width: 30em;
+}
+
+.countriesappimg{
+    height: 25em;
+    width: 30em;
+    border: whitesmoke solid 1px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.projecttitle{
+    color: azure;
+    margin-left: 20px;
+}
+
+.projectp{
+    color: azure;
+    margin-left: 20px;
+}
+
+.projectbtn{
+    margin-left: 12rem;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    font-size: larger;
+    font-weight: 400;
 }
