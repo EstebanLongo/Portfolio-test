@@ -1,11 +1,44 @@
 .techcontainter{
-    background-color: black;
+    background-color: #0A192F;
     display: flex;
     flex-wrap: wrap;
-    height: 50em;
+    height: 40em;
+    padding-left: 20em;
 }
 
+.techcontainter2{
+    height: 35em;
+    width: 65em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills{
+    padding-left: 20em;
+    color: rgb(225, 225, 224);
+    background-color: #0A192F;
+}
+    
 .techstackimg {
+    height: 5rem;
+    width: 5rem;
+    gap: 1rem;
+}
+
+.techstackimggh{
+    height: 5rem;
+    width: 5rem;
+    gap: 1rem;
+    border-radius: 37px;
+}
+
+.divimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: whitesmoke solid 1.5px;
+    margin: 10px;
+    border-radius: 5px;
     height: 10rem;
     width: 10rem;
 }
