@@ -13,8 +13,8 @@ function App() {
       <NavBar />
       <About />
       <SobreMi />
-      <Projects />
       <TechStack />
+      <Projects />
       <Contact />
     </main>
   );

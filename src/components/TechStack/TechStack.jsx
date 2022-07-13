@@ -1,6 +1,7 @@
 import React from "react";
 import "./techstack.css";
 import img from "../../assets/mongoDB.png";
+import image from "../../assets/sequelize.png";
 
 export default function TechStack() {
   return (
@@ -73,7 +74,8 @@ export default function TechStack() {
         <div className="divimg">
           <img
             className="techstackimg"
-            src="http://assets.stickpng.com/thumbs/58482ee4cef1014c0b5e4a75.png"
+            // src="http://assets.stickpng.com/thumbs/58482ee4cef1014c0b5e4a75.png"
+            srcSet={image}
           />
         </div>
 
