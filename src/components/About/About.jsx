@@ -3,8 +3,8 @@ import "./about.css";
 
 export default function About() {
   return (
-    <div className="aboutcontainer">
-        <p className="abouttitle">Hola, soy</p>
+    <div className="aboutcontainer" id='about'>
+        {/* <p className="abouttitle">Hola, soy</p> */}
         <h1 className="aboutname">Esteban Longo</h1>
         <h2 className="aboutfullstack">Full Stack Developer</h2>
         <p className="aboutp">
@@ -16,7 +16,7 @@ export default function About() {
         </p>
             
             <section id="section05" class="demo">
-            <a href="#section06"><span></span>Mis proyectos</a>
+            <a href="#projects"><span></span>Mis proyectos</a>
         </section>
             
           

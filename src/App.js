@@ -12,7 +12,7 @@ function App() {
     <main className="text-gray-400 bg-gray-900 body-font">
       <NavBar />
       <About />
-      <SobreMi />
+      {/* <SobreMi /> */}
       <TechStack />
       <Projects />
       <Contact />

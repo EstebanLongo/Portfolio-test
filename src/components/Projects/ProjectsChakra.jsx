@@ -1,12 +1,5 @@
 import React from 'react'
 
-// export default function Projects () {
-
-//     return (
-//         <>
-//         </>
-//     )
-// }
 import Image from 'next/image';
 import {
   Box,

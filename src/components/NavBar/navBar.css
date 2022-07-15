@@ -1,16 +1,24 @@
 .navbarlist {
-    background: rgb(17,10,95);
-background: linear-gradient(180deg, rgba(17,10,95,1) 55%, rgba(0,0,0,1) 100%);
+    background: rgb(10,25,47);
+    background: linear-gradient(180deg, rgba(10,25,47,1) 56%, rgba(0,0,0,1) 100%);
     display: flex;
     flex-direction: row;
     list-style: none;
     height: 5em;
     padding: 0;
-    margin: 0;
+    /* margin: 0; */
+    width: 100%;
     justify-items: center;
     justify-content: flex-end;
     gap: 30px;
+    position: fixed;
+    /* background-color: #0A192F; */
 } 
+
+.anchornav{
+    text-decoration: none;
+    color: aliceblue;
+}
 
 .navbaritems {
     /* margin-right: 50px; */
