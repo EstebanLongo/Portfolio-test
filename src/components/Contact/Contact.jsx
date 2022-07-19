@@ -4,12 +4,19 @@ import './contact.css'
 
 export default function Contact () {
 
+    const scrollToTop = () => {
+        window.scroll({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
+
     return (
-        <div className='contactcontainer' id='contact'>
+        <div className='contactcontainer'>
             <h1 className='contactitle'>Contactame</h1>
             <p className='contactp'>Te invito a ver mis perfiles y contactarme</p>
 
-            <div className='contactcards'>
+            <div className='contactcards' id='contact'>
                 
                 <a className='anchor' target="_blank" href='https://www.linkedin.com/in/esteban-longo/'>
 
@@ -25,6 +32,8 @@ export default function Contact () {
                     <img className='githubimg' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTFSIO_dsJJiOX3Sntwxpw6lUIJKI0ueBlRpcQ3q57xVOw4-bCAQ2eX0v_5v2sf5CIiNA&usqp=CAU'/>
                 </div>
                 </a>
+            <button className='btntop' onClick={()=>scrollToTop()}>˄ ⇑</button>
+            
             </div>
         </div>
     )

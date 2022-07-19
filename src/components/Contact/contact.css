@@ -1,7 +1,7 @@
 .contactcontainer {
   height: 28em;
   background-color: #0a192f;
-  padding-top: 8rem;
+  padding-top: 32rem;
   padding-left: 8em;
   padding-right: 20em;
 }
@@ -66,4 +66,11 @@
   margin-left: 1rem;
   width: 5rem;
   border-radius: 40px;
+}
+
+.btntop{
+  height: 2rem;
+  width: 2rem;
+  background: none;
+  border: none;
 }

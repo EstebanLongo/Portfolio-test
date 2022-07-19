@@ -1,7 +1,7 @@
 .projectscontainer{
     background-color: #0A192F;
     padding-top: 8em;
-    height: 50em;
+    height: 90em;
 }
 
 .projectscont{
@@ -20,18 +20,14 @@
 
 .projects{
     border: rgba(245, 245, 245, 0.493) solid 1px;
-    /* margin-left: 17rem; */
     border-radius: 15px;
-    height: 40em;
+    height: 52em;
     width: 30em;
 }
 
 .btnanchor {
     text-decoration: none;
     color: #0A192F;
-
-    /* height: 7rem;
-    width: 15rem; */
 }
 
 .countriesappimg{
@@ -60,4 +56,10 @@
     margin-top: 2rem;
     font-size: larger;
     font-weight: 400;
+}
+
+.projectul{
+    list-style-type: "➢";
+    list-style-type: "➱";
+    padding-left: 1rem;
 }

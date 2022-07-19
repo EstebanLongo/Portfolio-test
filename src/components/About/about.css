@@ -11,10 +11,6 @@
     height: 40em;
 }
 
-.abouttitle{
-    color: rgb(135, 53, 141);
-    
-}
 .aboutname{
     font-size: 4.5rem;
     font-weight: 700;
@@ -23,7 +19,7 @@
 
 .aboutfullstack{
     font-size: 4.5rem;
-    color: rgba(247, 244, 244, 0.858);
+    color: rgb(252, 88, 43);
 
 }
 
