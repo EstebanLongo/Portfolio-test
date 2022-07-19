@@ -69,8 +69,23 @@
 }
 
 .btntop{
-  height: 2rem;
-  width: 2rem;
   background: none;
   border: none;
+  cursor: pointer;
+  /* padding: 15rem 5rem; */
+  /* padding-top: 15rem; */
+  padding-left: -25rem;
+  /* background-color: antiquewhite; */
+  float: left;
+  height: 10rem;
+  margin-top: 10rem;
+  margin-right: 15rem;
+}
+
+.imgtop{
+  height: 5rem;
+  width: 5rem;
+  /* padding-left: -25rem; */
+  margin-left: -10rem;
+
 }

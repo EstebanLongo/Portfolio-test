@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import imagen from '../../assets/arrowhead-up.png'
 import './contact.css'
 
 export default function Contact () {
@@ -32,9 +33,12 @@ export default function Contact () {
                     <img className='githubimg' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTFSIO_dsJJiOX3Sntwxpw6lUIJKI0ueBlRpcQ3q57xVOw4-bCAQ2eX0v_5v2sf5CIiNA&usqp=CAU'/>
                 </div>
                 </a>
-            <button className='btntop' onClick={()=>scrollToTop()}>˄ ⇑</button>
             
+            <button className='btntop' onClick={()=>scrollToTop()}> 
+            <img className='imgtop' src={imagen} alt="img" />
+            </button>
             </div>
+
         </div>
     )
 }
