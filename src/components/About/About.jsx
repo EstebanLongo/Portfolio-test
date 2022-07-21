@@ -14,7 +14,7 @@ export default function About() {
         Mi curiosidad hace de mi día a día mejorar mis habilidades. Soy un entusiasta del continuo aprendizaje. Tanto en lo grupal como en lo individual me reconozco como una persona proactiva, de mente analítica, resolutiva y creativa, con grandes habilidades de comunicación y de trabajo en equipo.
       </p>
 
-      <section id="section05" class="demo">
+      <section id="section05" className="demo">
         {/* <a href="#projects"> */}
           <Link
             className="linkaboutprojects"       
