@@ -1,12 +1,12 @@
 import React from "react";
-// import { Link } from "react-scroll";
+import { Link } from "react-scroll";
 import "./navBar.css";
 
 export default function NavBar() {
   return (
     <>
       <ul className="navbarlist">
-        {/* <li className="navbaritems">
+        <li className="navbaritems">
           <Link
             className="hover:border-b-4 border-pink-600 duration-100"
             to="about"
@@ -47,11 +47,7 @@ export default function NavBar() {
             duration={500}
           >
             CONTACTO
-          </Link> */}
-        {/* </li> */}
-
-        <li>
-          <a href="#skills">SKILLS</a>
+          </Link>
         </li>
       </ul>
     </>
