@@ -27,15 +27,14 @@
 }
 
 /* smartphone */
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
     .navbaritems {
       margin-bottom: -1px;
     }
   }
 
-/* tablet */
   @media screen and (min-width: 501px) and (max-width: 850px)  {
     .navbaritems {
         margin-bottom: -1px;
   }
-}
+} */

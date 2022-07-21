@@ -13,7 +13,7 @@ export default function Projects() {
         <div className="projects">
           <img src={img} className="countriesappimg" />
           <h2 className="projecttitle">Countries App</h2>
-          <p className="projectp">
+          <div className="projectp">
             SPA (Single Page Application) sobre países, en la cual se podrán
             visualizar los mismos traídos desde una API, con toda su
             información. <br /><br />
@@ -31,7 +31,7 @@ export default function Projects() {
             <h3>Tecnologias utilizadas:</h3>
             Javascript, React, Redux, HTML, CSS, Node.js, Express, Sequelize y
             PostgreSQL
-          </p>
+          </div>
           <button className="projectbtn">
             <a
               href="https://countries-pi-esteban.vercel.app/"
@@ -46,7 +46,7 @@ export default function Projects() {
         <div className="projects">
           <img src={terapeando} className="countriesappimg" />
           <h2 className="projecttitle">Terapeando</h2>
-          <p className="projectp">
+          <div className="projectp">
             App de terapia online para conectar pacientes y profesionales de la
             salud. <br /><br />
             <h3>Funcionalidades:</h3>
@@ -64,7 +64,7 @@ export default function Projects() {
             <h3>Tecnologias utilizadas:</h3>
             Javascript, React, Redux, HTML, CSS, Chakra UI, Node.js, TypeScript,
             Express y MongoDB
-          </p>
+          </div>
           <button className="projectbtn">
             <a
               href="https://terapeando.vercel.app/"
@@ -79,7 +79,7 @@ export default function Projects() {
         <div className="projects">
           <img src={moviesapp} className="countriesappimg" />
           <h2 className="projecttitle">Movies App</h2>
-          <p className="projectp">
+          <div className="projectp">
             App sobre peliculas, utilizando una API externa en la cual se podrán visualizar las peliculas, con toda su información.
           <br /><br />
             <h3>Funcionalidades:</h3>
@@ -91,7 +91,7 @@ export default function Projects() {
           <br />
           <h3>Tecnologias utilizadas:</h3>
           Javascript, React, Redux, HTML, CSS
-          </p>
+          </div>
           <button className="projectbtn">
             <a
               href="https://movies-el-app.vercel.app/"
