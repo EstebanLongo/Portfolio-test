@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 import "./about.css";
 
 export default function About() {
@@ -15,15 +15,15 @@ export default function About() {
       </p>
 
       <section id="section05" className="demo">
-        {/* <a href="#projects"> */}
-          <Link
+        <a href="#projects">
+          {/* <Link
             className="linkaboutprojects"       
             to="projects"
             smooth={true}
-            duration={500}>
+            duration={500}> */}
           <span></span>Mis proyectos
-          </Link>
-        {/* </a> */}
+          {/* </Link> */}
+        </a>
       </section>
     </div>
   );

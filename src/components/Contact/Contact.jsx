@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from "react-router-dom";
 import imagen from '../../assets/arrowhead-up.png'
 import './contact.css'
 
